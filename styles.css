@@ -1,0 +1,54 @@
+.layoutPrincipal {
+  display: flex;
+  margin: 40px auto;
+  gap: 20px;
+  max-width: 75%;
+}
+
+.carta {
+  background-color: #E7E3DC;
+  padding: 40px;
+  border-radius: 4px;
+  box-shadow: 0px 0px 10px 0px;
+  margin: 0px auto;
+}
+
+body {
+    background-color: #EBEBE6;
+    font-family: sans-serif;
+    color: #2C2C2C;
+}
+
+/* Estilos para el formulario */
+
+.boton {
+  background-color: #F5F5F5;
+  color: #2C2C2C;
+  padding: 8px;
+  transition: background-color 0.3s;
+  transition: color 0.3s;
+  border-radius: 4px;
+}
+
+.boton:hover {
+  background-color: #2C2C2C;
+  color: #EBEBE6;
+  cursor: pointer;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+  background-color: #F5F5F5;
+  margin: 5px;
+  padding: 3px;
+  border: 1px solid #2C2C2C;
+  border-radius: 4px;
+  width: 50%;
+  border: 0px;
+  outline: 1px solid;
+}

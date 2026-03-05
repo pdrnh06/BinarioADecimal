@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+    content="width=device-width,
+    initial-scale=1.0">
+    <title>Plantilla</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="layoutPrincipal">
+
+        <div class="carta">
+
+            <div>
+                <h1>Conversor de binario a decimal</h1>
+                <form name="formulario_binario">
+                    <input type="text" name="input_binario" id="input_binario">
+                    <input type="button" value="Calcular" id="boton_calcular" class="boton" onclick="manejar_calculos()">
+                </form>
+            </div>
+
+            <div id="contenedor_resultado">
+                <h3>Resultado: </h3>
+                <p id="parrafo_resultado"></p>
+            </div>
+
+        </div>
+
+        
+
+    </div>
+    
+    <script src="app.js" defer></script>
+</body>
+</html>
